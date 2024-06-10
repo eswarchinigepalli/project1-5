@@ -1,0 +1,40 @@
+body{
+    background-image: url("1.jpg");
+    background-size: cover;         
+
+}
+
+nav {
+    background-color: #161111;
+    color: white;
+    padding: 10px;
+    align-items: start;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}
+h1,p{
+    color: aliceblue;
+    font-style: italic;
+    font-size: large;
+
+}
+div{
+    color: rgb(244, 244, 245);
+    font-style: oblique;
+    
+}

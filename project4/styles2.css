@@ -1,0 +1,40 @@
+body {
+    /* Set the background image */
+    background-image: url('1.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Make the background cover the entire body */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-attachment: fixed; /* Fix the background image in place */
+
+    /* Apply other CSS styles */
+    font-family: Arial, sans-serif; /* Set the font family */
+    color: #fdf9f9; /* Set the font color */
+    margin: 0; /* Remove default margins */
+    padding: 20px; /* Add padding */
+    line-height: 1.6; /* Set line height */
+    text-align: center;
+}
+.con{
+    text-align: center;
+    padding: 2px 2px 2px;
+}
+
+h1 {
+    text-align: center; /* Center align the heading */
+    color: #fff; /* Set the heading color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+}
+
+p {
+    background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to paragraphs */
+    padding: 10px; /* Add padding inside paragraphs */
+    border-radius: 5px; /* Round the corners */
+}
+.bg-video {
+    position: fixed;
+    right: 0;
+    bottom:-58px;
+    min-width: 50%; 
+    min-height: 50%;
+    z-index: -1;
+    object-fit: cover;
+}

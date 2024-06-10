@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Genres</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .bg-video {
+            position: fixed;
+            right: 0;
+            bottom:-58px;
+            min-width: 100%; 
+            min-height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+
+        .nav {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+            flex-wrap: wrap;
+            margin: 0;
+            display: flex;
+            justify-content:flex-end;
+        }
+
+        .nav ul li {
+            margin: 0 20px;
+        }
+
+        .nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+
+        .nav ul li a:hover {
+            color: #ff6347; /* Tomato color */
+            text-decoration: underline;
+        }
+        .nav h3{
+            text-align: left;
+            padding: auto;
+        }
+        .nav .btn{
+            touch-action: initial;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul><li style="flex: auto; display: flex;">movie_genurs</li>
+            <li><a href="https://tubitv.com/category/horror" target="_blank">Horror</a></li>
+            <li><a href="https://tubitv.com/category/comedy" target="_blank">Comedy</a></li>
+            <li><a href="https://tubitv.com/category/love" target="_blank">Love</a></li>
+            <li><a href="https://tubitv.com/category/action" target="_blank">Action</a></li>
+            <li class="return"><a href="/Navigation.html" target="_blank">return</a></li>
+
+        </ul>
+    </div>
+    <video autoplay loop muted class="bg-video">
+        <source src="bujji.mp4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <audio autoplay loop>
+        <source src="1.mp3" type="audio/mp3">
+        Your browser does not support the video tag.
+    </audio>
+</body>
+</html>

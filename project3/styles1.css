@@ -1,0 +1,71 @@
+/* styles1.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-clip: border-box;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: larger;
+    font-style: oblique;
+    color: aliceblue;
+    text-align: center;
+}
+
+h2:hover {
+    background-image: linear-gradient(to right, rgb(1, 128, 255), rgba(3, 208, 249, 0.836));
+    background-size: cover;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a {
+    text-emphasis: none;
+    text-transform: lowercase;
+    color: aliceblue;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    color: aliceblue;
+}
+
+.nav-menu li {
+    margin: 10px 0;
+    color: aliceblue;
+}
